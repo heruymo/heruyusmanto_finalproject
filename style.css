@@ -1,0 +1,191 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: inline flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+nav ul li a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+#profile1 {
+  padding: 2em;
+  padding-bottom: 10em;
+  background-color:white;
+  display: flex;
+}
+.profile-text1{  
+  padding-left: 1em;
+  padding-bottom: 3em;
+  text-align: center;
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profile-photo1 img{
+  background-color: white;
+  border-radius: 50%;
+  border: solid 5px orange;
+
+  margin: 5px 5px;
+  width: 150px;
+  height: 150px;
+}
+.detail1{
+  font-style: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  padding-left: 2em;
+   background-color:white;
+   display: flex;
+  }
+#profile {
+  background-color:white;
+  display: flex;
+}
+.profile-photo img{
+  background-color: white;
+  border-radius: 50%;
+  border: solid 5px orange;
+
+  margin: 5px 5px;
+  width: 150px;
+  height: 150px;
+}
+head{
+  display: flex;
+}
+.logo img{
+  background-color: white;
+  border-radius: 50%;
+  border: solid 5px orange;
+
+  display: block;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+}
+.profile-text{  
+  padding-bottom: 3em;
+  text-align: center;
+  font-size: 200%;
+  background-color: white;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profile-text p{
+text-align: justify;
+padding: 0em 2em 2em 2em;
+}
+.Skils{
+  padding: 1em 2em 6em 2em;
+  font: optional;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-size: 25px;
+  font-display: initial;
+  width: fit-content;
+}
+.detail{
+font-style: normal;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ padding-bottom: 4em;
+ padding-left: 2em;
+ padding-right: 2em;
+ height: 200%;
+ background-color:white;
+}
+#demo{
+  padding-bottom: 1em;
+  color: blue;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+.Kontak{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.Resume{
+  background-color: transparent;
+  border: solid 1px green;
+  color: green;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: medium;
+  cursor: pointer;
+  border-radius: 20px;
+}
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: rgb(115, 220, 252);
+  color: rgb(0, 4, 255);
+  text-align: center;
+  text-decoration-color: beige;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1em;
+  padding-bottom: 2em;
+  font-size: large;
+}
+.kotak{
+  position: fixed;
+  height: 1cm;
+  width: 50%;
+  background-color: rgb(115, 220, 252);
+}
+/* tambahkan CSS untuk section profile disini */

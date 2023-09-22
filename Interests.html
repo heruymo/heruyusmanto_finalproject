@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <head>
+        <title>Interests</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul class="head">
+               <div class="logo">
+                  <img src="assets/hacktiv8.png" alt="foto profil">
+                      </div>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="Experiences.html">Experiences</a></li>
+                      <li><a href="Education.html">Education</a></li>
+                      <li><a href="Skills.html">Skils</a></li>
+                      <li><a href="Interests.html">Interests</a></li>
+                      <li><a href="Award.html">Award</a></li>
+                      <li><a href="About.html">About</a></li>
+              </ul>
+          </nav>
+        <section></section>
+            <div class="detail">
+                <h1 style="background-color: white; font-size: 50px; text-align: center;">HOBI/MINAT</h1>
+                    <ol class="Skils">
+                        <li>
+                            NGODING
+                        </li>
+                        <li>
+                            DESAIN
+                        </li>
+                        <li>
+                            FUTSAL
+                        </li>
+                        <li>
+                            MENYANYI
+                        </li>
+                    </ol>
+                    <div id="demo">
+                    <script>
+                            var countDownDate = new Date("Dec 31, 2023 00:00:00").getTime();
+                    
+                    var x = setInterval(function() {
+                
+                      var now = new Date().getTime()
+                      var distance = countDownDate - now;
+                    
+                      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                      document.getElementById("demo").innerHTML = days + " Hari " + hours + " Jam "
+                      + minutes + " Menit " + seconds + " Detik ";
+                        
+                      if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "SELAMAT TAHUN BARU..!";
+                      }
+                    }, 1000);
+                    </script>
+            </div>
+                </div>
+        </section>
+    </body>
+    <footer>
+        <div class="footer">
+          <span>© Copyright 2023</span> 
+          <span style=" color: red;">Design by Heru Yusmanto</span>	
+         
+        </div>
+      </footer>
+</html>
